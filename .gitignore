@@ -1,0 +1,17 @@
+# 忽略虚拟环境、缓存、数据、结果文件
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+
+# 忽略数据与实验结果
+data/
+results/
+results_best/
+figs/
+*.pth
+*.ckpt
+*.onnx
+*.zip
+*.rar
